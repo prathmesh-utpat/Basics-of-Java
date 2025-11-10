@@ -16,6 +16,15 @@ public class Inputs {
         System.out.println("Your name is " + name + " and your age is " + age);
         // printing name and age
 
+        //calculator example
+
+        System.out.print("Enter First Number: ");
+        int a=sc.nextInt();
+        System.out.print("Enter Second Number: ");
+        int b=sc.nextInt();
+        int sum=a+b;
+        System.out.println("The sum is: " + sum);
+
         sc.close(); // close scanner to avoid resource leak
     }
 }
