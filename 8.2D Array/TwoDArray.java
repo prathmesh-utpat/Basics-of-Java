@@ -27,7 +27,7 @@ public class TwoDArray {
 
             // Loop for columns
             for (int j = 0; j < m; j++) {
-
+                
                 // Take input for each cell
                 arr[i][j] = sc.nextInt();
             }
